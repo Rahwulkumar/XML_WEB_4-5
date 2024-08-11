@@ -1,0 +1,8 @@
+<!ELEMENT forexTrades (trade+)>
+<!ELEMENT trade (tradeID, currencyPair, tradeDate, units, price, tradeType)>
+<!ELEMENT tradeID (#PCDATA)>
+<!ELEMENT currencyPair (#PCDATA)>
+<!ELEMENT tradeDate (#PCDATA)>
+<!ELEMENT units (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT tradeType (#PCDATA)>
